@@ -1,0 +1,17 @@
+scenario,junction,arrival_rate_per_second,description
+Normal,J1,0.25,Ordinary daytime traffic
+Normal,J2,0.22,Ordinary daytime traffic
+Normal,J3,0.25,Ordinary daytime traffic
+Normal,J4,0.20,Ordinary daytime traffic
+High traffic,J1,0.90,Heavy congestion on every road
+High traffic,J2,0.85,Heavy congestion on every road
+High traffic,J3,0.90,Heavy congestion on every road
+High traffic,J4,0.80,Heavy congestion on every road
+Rush hour (North-South),J1,1.00,North-South corridor is jammed while East-West is light
+Rush hour (North-South),J2,0.20,North-South corridor is jammed while East-West is light
+Rush hour (North-South),J3,0.90,North-South corridor is jammed while East-West is light
+Rush hour (North-South),J4,0.20,North-South corridor is jammed while East-West is light
+Night (Low),J1,0.05,Very little traffic
+Night (Low),J2,0.04,Very little traffic
+Night (Low),J3,0.05,Very little traffic
+Night (Low),J4,0.04,Very little traffic

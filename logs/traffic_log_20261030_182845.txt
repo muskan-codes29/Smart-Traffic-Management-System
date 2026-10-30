@@ -1,0 +1,877 @@
+[tick    0] 18:28:45 SYSTEM    Simulation initialised (scenario 'Normal', seed 42). NOTE: all traffic data is simulated.
+[tick    0] 18:28:45 SIGNAL    NS roads (J1, J3): GREEN, EW roads (J2, J4): RED
+[tick    0] 18:28:52 SYSTEM    Simulation started
+[tick    3] 18:28:54 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 1
+[tick    5] 18:28:56 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J2 (prio 2, 1 quanta left)
+[tick    5] 18:28:56 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick    6] 18:28:57 ARRIVAL   2 vehicle(s) arrived at East Road (J2); queue = 2
+[tick    6] 18:28:57 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 1
+[tick    6] 18:28:57 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J4 (prio 2, 1 quanta left)
+[tick    6] 18:28:57 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick    6] 18:28:57 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick    6] 18:28:57 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick    7] 18:28:58 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick    8] 18:28:59 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 1
+[tick    8] 18:28:59 ARRIVAL   2 vehicle(s) arrived at East Road (J2); queue = 4
+[tick    8] 18:28:59 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 1
+[tick    8] 18:28:59 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 1
+[tick    9] 18:29:00 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick    9] 18:29:00 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick   10] 18:29:01 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J2 (prio 2, 1 quanta left)
+[tick   10] 18:29:01 SIGNAL    NS roads: GREEN -> YELLOW (3s)
+[tick   10] 18:29:01 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick   10] 18:29:01 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick   10] 18:29:01 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick   11] 18:29:02 SCHEDULER AGING: DASHBOARD_UPDATE waited 4 ticks -> priority 2 -> 1
+[tick   12] 18:29:03 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 1
+[tick   13] 18:29:04 SIGNAL    NS roads: YELLOW -> RED, all-red clearance (1s)
+[tick   13] 18:29:04 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick   13] 18:29:04 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick   14] 18:29:05 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 1
+[tick   14] 18:29:05 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J2 (prio 2, 1 quanta left)
+[tick   14] 18:29:05 SIGNAL    EW roads (J2, J4): GREEN for 9s [density: busiest queue = 4 vehicles]
+[tick   14] 18:29:05 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick   14] 18:29:05 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick   15] 18:29:06 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 5
+[tick   15] 18:29:06 ARRIVAL   2 vehicle(s) arrived at West Road (J4); queue = 3
+[tick   16] 18:29:07 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 2
+[tick   16] 18:29:07 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick   17] 18:29:08 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick   17] 18:29:08 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick   18] 18:29:09 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 2
+[tick   18] 18:29:09 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 3
+[tick   18] 18:29:09 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick   18] 18:29:09 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick   19] 18:29:10 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick   21] 18:29:12 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 1
+[tick   21] 18:29:12 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick   21] 18:29:12 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick   21] 18:29:12 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick   22] 18:29:13 ARRIVAL   2 vehicle(s) arrived at North Road (J1); queue = 4
+[tick   22] 18:29:13 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J3 (prio 2, 1 quanta left)
+[tick   22] 18:29:13 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick   22] 18:29:13 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick   22] 18:29:13 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick   22] 18:29:13 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick   23] 18:29:14 ARRIVAL   2 vehicle(s) arrived at East Road (J2); queue = 2
+[tick   23] 18:29:14 SIGNAL    EW roads: GREEN -> YELLOW (3s)
+[tick   23] 18:29:14 SCHEDULER AGING: DASHBOARD_UPDATE waited 4 ticks -> priority 2 -> 1
+[tick   24] 18:29:15 ARRIVAL   2 vehicle(s) arrived at North Road (J1); queue = 6
+[tick   24] 18:29:15 SCHEDULER AGING: LOGGER waited 4 ticks -> priority 2 -> 1
+[tick   25] 18:29:16 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick   25] 18:29:16 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick   26] 18:29:17 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 1
+[tick   26] 18:29:17 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick   26] 18:29:17 SIGNAL    EW roads: YELLOW -> RED, all-red clearance (1s)
+[tick   26] 18:29:17 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick   27] 18:29:18 SIGNAL    NS roads (J1, J3): GREEN for 9s [density: busiest queue = 4 vehicles]
+[tick   28] 18:29:19 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 7
+[tick   28] 18:29:19 ARRIVAL   2 vehicle(s) arrived at South Road (J3); queue = 5
+[tick   28] 18:29:19 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick   29] 18:29:20 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick   29] 18:29:20 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick   29] 18:29:20 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick   30] 18:29:21 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 2
+[tick   30] 18:29:21 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J2 (prio 2, 1 quanta left)
+[tick   30] 18:29:21 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick   30] 18:29:21 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick   31] 18:29:22 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 2
+[tick   31] 18:29:22 SCHEDULER AGING: DASHBOARD_UPDATE waited 4 ticks -> priority 2 -> 1
+[tick   31] 18:29:22 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick   33] 18:29:24 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick   33] 18:29:24 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick   34] 18:29:25 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J2 (prio 2, 1 quanta left)
+[tick   34] 18:29:25 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick   34] 18:29:25 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick   34] 18:29:25 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick   35] 18:29:26 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 3
+[tick   36] 18:29:27 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 3
+[tick   36] 18:29:27 SIGNAL    NS roads: GREEN -> YELLOW (3s)
+[tick   36] 18:29:27 SCHEDULER AGING: LOGGER waited 4 ticks -> priority 2 -> 1
+[tick   37] 18:29:28 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 1
+[tick   37] 18:29:28 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick   37] 18:29:28 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick   38] 18:29:29 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick   38] 18:29:29 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick   39] 18:29:30 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 4
+[tick   39] 18:29:30 SIGNAL    NS roads: YELLOW -> RED, all-red clearance (1s)
+[tick   40] 18:29:31 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 1
+[tick   40] 18:29:31 SIGNAL    EW roads (J2, J4): GREEN for 8s [density: busiest queue = 3 vehicles]
+[tick   40] 18:29:31 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick   41] 18:29:32 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 2
+[tick   41] 18:29:32 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 4
+[tick   41] 18:29:32 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J2 (prio 2, 1 quanta left)
+[tick   41] 18:29:32 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick   41] 18:29:32 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick   42] 18:29:33 ARRIVAL   3 vehicle(s) arrived at East Road (J2); queue = 6
+[tick   42] 18:29:33 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 3
+[tick   42] 18:29:33 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J3 (prio 2, 1 quanta left)
+[tick   42] 18:29:33 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick   42] 18:29:33 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick   42] 18:29:33 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick   43] 18:29:34 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 2
+[tick   43] 18:29:34 SCHEDULER AGING: DASHBOARD_UPDATE waited 4 ticks -> priority 2 -> 1
+[tick   43] 18:29:34 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick   44] 18:29:35 ARRIVAL   2 vehicle(s) arrived at North Road (J1); queue = 4
+[tick   45] 18:29:36 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 5
+[tick   45] 18:29:36 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick   45] 18:29:36 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick   46] 18:29:37 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 4
+[tick   46] 18:29:37 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 1
+[tick   46] 18:29:37 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick   46] 18:29:37 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick   48] 18:29:39 SIGNAL    EW roads: GREEN -> YELLOW (3s)
+[tick   49] 18:29:40 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 1
+[tick   49] 18:29:40 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 1
+[tick   49] 18:29:40 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick   49] 18:29:40 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick   49] 18:29:40 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick   50] 18:29:41 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J3 (prio 2, 1 quanta left)
+[tick   50] 18:29:41 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick   50] 18:29:41 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick   50] 18:29:41 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick   51] 18:29:42 SIGNAL    EW roads: YELLOW -> RED, all-red clearance (1s)
+[tick   52] 18:29:43 SIGNAL    NS roads (J1, J3): GREEN for 10s [density: busiest queue = 5 vehicles]
+[tick   52] 18:29:43 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick   53] 18:29:44 ARRIVAL   2 vehicle(s) arrived at North Road (J1); queue = 7
+[tick   53] 18:29:44 ARRIVAL   2 vehicle(s) arrived at East Road (J2); queue = 3
+[tick   53] 18:29:44 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 2
+[tick   53] 18:29:44 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick   53] 18:29:44 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick   53] 18:29:44 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick   54] 18:29:45 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 4
+[tick   54] 18:29:45 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J2 (prio 2, 1 quanta left)
+[tick   54] 18:29:45 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick   54] 18:29:45 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick   55] 18:29:46 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 3
+[tick   55] 18:29:46 SCHEDULER AGING: DASHBOARD_UPDATE waited 4 ticks -> priority 2 -> 1
+[tick   55] 18:29:46 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick   57] 18:29:48 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick   57] 18:29:48 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick   58] 18:29:49 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 5
+[tick   58] 18:29:49 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J2 (prio 2, 1 quanta left)
+[tick   58] 18:29:49 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick   58] 18:29:49 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick   58] 18:29:49 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick   60] 18:29:51 SCHEDULER AGING: LOGGER waited 4 ticks -> priority 2 -> 1
+[tick   61] 18:29:52 ARRIVAL   2 vehicle(s) arrived at South Road (J3); queue = 2
+[tick   61] 18:29:52 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 3
+[tick   61] 18:29:52 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick   61] 18:29:52 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick   62] 18:29:53 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 4
+[tick   62] 18:29:53 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick   62] 18:29:53 SIGNAL    NS roads: GREEN -> YELLOW (3s)
+[tick   62] 18:29:53 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick   63] 18:29:54 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 1
+[tick   64] 18:29:55 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 2
+[tick   64] 18:29:55 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick   65] 18:29:56 ARRIVAL   3 vehicle(s) arrived at North Road (J1); queue = 5
+[tick   65] 18:29:56 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 6
+[tick   65] 18:29:56 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J2 (prio 2, 1 quanta left)
+[tick   65] 18:29:56 SIGNAL    NS roads: YELLOW -> RED, all-red clearance (1s)
+[tick   65] 18:29:56 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick   65] 18:29:56 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick   66] 18:29:57 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 6
+[tick   66] 18:29:57 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 7
+[tick   66] 18:29:57 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J3 (prio 2, 1 quanta left)
+[tick   66] 18:29:57 SIGNAL    EW roads (J2, J4): GREEN for 10s [density: busiest queue = 5 vehicles]
+[tick   66] 18:29:57 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick   66] 18:29:57 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick   66] 18:29:57 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick   67] 18:29:58 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 8
+[tick   67] 18:29:58 SCHEDULER AGING: DASHBOARD_UPDATE waited 4 ticks -> priority 2 -> 1
+[tick   67] 18:29:58 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick   68] 18:29:59 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 1
+[tick   69] 18:30:01 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick   69] 18:30:01 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick   70] 18:30:02 ARRIVAL   2 vehicle(s) arrived at South Road (J3); queue = 3
+[tick   70] 18:30:02 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick   70] 18:30:02 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick   71] 18:30:03 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 5
+[tick   71] 18:30:03 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 4
+[tick   71] 18:30:03 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 1
+[tick   72] 18:30:04 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 7
+[tick   73] 18:30:05 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick   73] 18:30:05 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick   73] 18:30:05 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick   74] 18:30:06 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 8
+[tick   74] 18:30:06 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J3 (prio 2, 1 quanta left)
+[tick   74] 18:30:06 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick   74] 18:30:06 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick   74] 18:30:06 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick   76] 18:30:08 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 1
+[tick   76] 18:30:08 SIGNAL    EW roads: GREEN -> YELLOW (3s)
+[tick   76] 18:30:08 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick   77] 18:30:09 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick   77] 18:30:09 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick   77] 18:30:09 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick   78] 18:30:10 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 1
+[tick   78] 18:30:10 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 5
+[tick   78] 18:30:10 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J2 (prio 2, 1 quanta left)
+[tick   78] 18:30:10 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick   78] 18:30:10 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick   79] 18:30:11 SIGNAL    EW roads: YELLOW -> RED, all-red clearance (1s)
+[tick   79] 18:30:11 SCHEDULER AGING: DASHBOARD_UPDATE waited 4 ticks -> priority 2 -> 1
+[tick   79] 18:30:11 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick   80] 18:30:12 SIGNAL    NS roads (J1, J3): GREEN for 12s [density: busiest queue = 8 vehicles]
+[tick   81] 18:30:13 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 6
+[tick   81] 18:30:13 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick   81] 18:30:13 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick   82] 18:30:14 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J2 (prio 2, 1 quanta left)
+[tick   82] 18:30:14 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick   82] 18:30:14 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick   82] 18:30:14 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick   83] 18:30:15 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 7
+[tick   84] 18:30:16 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 1
+[tick   84] 18:30:16 SCHEDULER AGING: LOGGER waited 4 ticks -> priority 2 -> 1
+[tick   85] 18:30:17 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick   85] 18:30:17 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick   86] 18:30:18 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick   86] 18:30:18 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick   88] 18:30:20 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick   89] 18:30:21 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 2
+[tick   89] 18:30:21 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J2 (prio 2, 1 quanta left)
+[tick   89] 18:30:21 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick   89] 18:30:21 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick   90] 18:30:22 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 1
+[tick   90] 18:30:22 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 2
+[tick   90] 18:30:22 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J3 (prio 2, 1 quanta left)
+[tick   90] 18:30:22 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick   90] 18:30:22 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick   90] 18:30:22 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick   91] 18:30:23 ARRIVAL   3 vehicle(s) arrived at North Road (J1); queue = 3
+[tick   91] 18:30:23 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 3
+[tick   91] 18:30:23 SCHEDULER AGING: DASHBOARD_UPDATE waited 4 ticks -> priority 2 -> 1
+[tick   91] 18:30:23 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick   92] 18:30:24 SIGNAL    NS roads: GREEN -> YELLOW (3s)
+[tick   93] 18:30:25 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick   93] 18:30:25 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick   94] 18:30:26 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick   94] 18:30:26 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick   95] 18:30:27 SIGNAL    NS roads: YELLOW -> RED, all-red clearance (1s)
+[tick   96] 18:30:28 SIGNAL    EW roads (J2, J4): GREEN for 8s [density: busiest queue = 2 vehicles]
+[tick   97] 18:30:29 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick   97] 18:30:29 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick   97] 18:30:29 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick   98] 18:30:30 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 2
+[tick   98] 18:30:30 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 1
+[tick   98] 18:30:30 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J3 (prio 2, 1 quanta left)
+[tick   98] 18:30:30 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick   98] 18:30:30 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick   98] 18:30:30 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick   99] 18:30:31 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 2
+[tick  100] 18:30:32 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  101] 18:30:33 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick  101] 18:30:33 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick  101] 18:30:33 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick  102] 18:30:34 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J2 (prio 2, 1 quanta left)
+[tick  102] 18:30:34 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  102] 18:30:34 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  103] 18:30:35 SCHEDULER AGING: DASHBOARD_UPDATE waited 4 ticks -> priority 2 -> 1
+[tick  103] 18:30:35 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  104] 18:30:36 SIGNAL    EW roads: GREEN -> YELLOW (3s)
+[tick  105] 18:30:37 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick  105] 18:30:37 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick  106] 18:30:38 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J2 (prio 2, 1 quanta left)
+[tick  106] 18:30:38 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  106] 18:30:38 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  106] 18:30:38 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  107] 18:30:39 ARRIVAL   2 vehicle(s) arrived at East Road (J2); queue = 2
+[tick  107] 18:30:39 SIGNAL    EW roads: YELLOW -> RED, all-red clearance (1s)
+[tick  108] 18:30:40 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 2
+[tick  108] 18:30:40 SIGNAL    NS roads (J1, J3): GREEN for 8s [density: busiest queue = 2 vehicles]
+[tick  108] 18:30:40 SCHEDULER AGING: LOGGER waited 4 ticks -> priority 2 -> 1
+[tick  109] 18:30:41 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  109] 18:30:41 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick  110] 18:30:42 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick  110] 18:30:42 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  111] 18:30:43 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 1
+[tick  112] 18:30:44 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  113] 18:30:45 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 1
+[tick  113] 18:30:45 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J2 (prio 2, 1 quanta left)
+[tick  113] 18:30:45 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick  113] 18:30:45 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick  114] 18:30:46 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 2
+[tick  114] 18:30:46 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J3 (prio 2, 1 quanta left)
+[tick  114] 18:30:46 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  114] 18:30:46 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  114] 18:30:46 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick  115] 18:30:47 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 3
+[tick  115] 18:30:47 SCHEDULER AGING: DASHBOARD_UPDATE waited 4 ticks -> priority 2 -> 1
+[tick  115] 18:30:47 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  116] 18:30:48 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 3
+[tick  116] 18:30:48 SIGNAL    NS roads: GREEN -> YELLOW (3s)
+[tick  117] 18:30:49 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  117] 18:30:49 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick  118] 18:30:50 ARRIVAL   2 vehicle(s) arrived at East Road (J2); queue = 5
+[tick  118] 18:30:50 ARRIVAL   2 vehicle(s) arrived at South Road (J3); queue = 2
+[tick  118] 18:30:50 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick  118] 18:30:50 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  119] 18:30:51 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 4
+[tick  119] 18:30:51 SIGNAL    NS roads: YELLOW -> RED, all-red clearance (1s)
+[tick  120] 18:30:52 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 6
+[tick  120] 18:30:52 SIGNAL    EW roads (J2, J4): GREEN for 10s [density: busiest queue = 5 vehicles]
+[tick  121] 18:30:53 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 3
+[tick  121] 18:30:53 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick  121] 18:30:53 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  121] 18:30:53 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick  122] 18:30:54 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 1
+[tick  122] 18:30:54 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 6
+[tick  122] 18:30:54 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J3 (prio 2, 1 quanta left)
+[tick  122] 18:30:54 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  122] 18:30:54 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  122] 18:30:54 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick  124] 18:30:56 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 2
+[tick  124] 18:30:56 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  125] 18:30:57 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick  125] 18:30:57 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick  125] 18:30:57 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick  126] 18:30:58 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J2 (prio 2, 1 quanta left)
+[tick  126] 18:30:58 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  126] 18:30:58 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  127] 18:30:59 SCHEDULER AGING: DASHBOARD_UPDATE waited 4 ticks -> priority 2 -> 1
+[tick  127] 18:30:59 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  129] 18:31:01 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick  129] 18:31:01 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick  130] 18:31:02 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 4
+[tick  130] 18:31:02 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J2 (prio 2, 1 quanta left)
+[tick  130] 18:31:02 SIGNAL    EW roads: GREEN -> YELLOW (3s)
+[tick  130] 18:31:02 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  130] 18:31:02 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  130] 18:31:02 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  132] 18:31:04 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 1
+[tick  132] 18:31:04 SCHEDULER AGING: LOGGER waited 4 ticks -> priority 2 -> 1
+[tick  133] 18:31:05 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 5
+[tick  133] 18:31:05 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 2
+[tick  133] 18:31:05 SIGNAL    EW roads: YELLOW -> RED, all-red clearance (1s)
+[tick  133] 18:31:05 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  133] 18:31:05 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick  134] 18:31:06 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick  134] 18:31:06 SIGNAL    NS roads (J1, J3): GREEN for 9s [density: busiest queue = 4 vehicles]
+[tick  134] 18:31:06 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  135] 18:31:07 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 3
+[tick  135] 18:31:07 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 1
+[tick  136] 18:31:08 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  137] 18:31:09 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 2
+[tick  137] 18:31:09 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J2 (prio 2, 1 quanta left)
+[tick  137] 18:31:09 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick  137] 18:31:09 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick  138] 18:31:10 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J3 (prio 2, 1 quanta left)
+[tick  138] 18:31:10 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  138] 18:31:10 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  138] 18:31:10 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick  139] 18:31:11 ARRIVAL   2 vehicle(s) arrived at North Road (J1); queue = 2
+[tick  139] 18:31:11 SCHEDULER AGING: DASHBOARD_UPDATE waited 4 ticks -> priority 2 -> 1
+[tick  139] 18:31:11 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  140] 18:31:12 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 2
+[tick  141] 18:31:13 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  141] 18:31:13 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick  142] 18:31:14 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick  142] 18:31:14 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  143] 18:31:15 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 3
+[tick  143] 18:31:15 SIGNAL    NS roads: GREEN -> YELLOW (3s)
+[tick  145] 18:31:17 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 2
+[tick  145] 18:31:17 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 1
+[tick  145] 18:31:17 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick  145] 18:31:17 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  145] 18:31:17 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick  146] 18:31:18 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J3 (prio 2, 1 quanta left)
+[tick  146] 18:31:18 SIGNAL    NS roads: YELLOW -> RED, all-red clearance (1s)
+[tick  146] 18:31:18 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  146] 18:31:18 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  146] 18:31:18 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick  147] 18:31:19 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 4
+[tick  147] 18:31:19 SIGNAL    EW roads (J2, J4): GREEN for 8s [density: busiest queue = 3 vehicles]
+[tick  148] 18:31:20 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  149] 18:31:21 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 4
+[tick  149] 18:31:21 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick  149] 18:31:21 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick  149] 18:31:21 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick  150] 18:31:22 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J2 (prio 2, 1 quanta left)
+[tick  150] 18:31:22 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  150] 18:31:22 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  151] 18:31:23 ARRIVAL   2 vehicle(s) arrived at East Road (J2); queue = 2
+[tick  151] 18:31:23 SCHEDULER AGING: DASHBOARD_UPDATE waited 4 ticks -> priority 2 -> 1
+[tick  151] 18:31:23 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  152] 18:31:24 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 2
+[tick  153] 18:31:25 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 2
+[tick  153] 18:31:25 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick  153] 18:31:25 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick  154] 18:31:26 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J2 (prio 2, 1 quanta left)
+[tick  154] 18:31:26 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  154] 18:31:26 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  154] 18:31:26 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  155] 18:31:27 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 2
+[tick  155] 18:31:27 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 1
+[tick  155] 18:31:27 SIGNAL    EW roads: GREEN -> YELLOW (3s)
+[tick  156] 18:31:28 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 1
+[tick  156] 18:31:28 SCHEDULER AGING: LOGGER waited 4 ticks -> priority 2 -> 1
+[tick  157] 18:31:29 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  157] 18:31:29 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick  158] 18:31:30 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick  158] 18:31:30 SIGNAL    EW roads: YELLOW -> RED, all-red clearance (1s)
+[tick  158] 18:31:30 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  159] 18:31:31 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 1
+[tick  159] 18:31:31 SIGNAL    NS roads (J1, J3): GREEN for 8s [density: busiest queue = 2 vehicles]
+[tick  160] 18:31:32 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 3
+[tick  160] 18:31:32 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  161] 18:31:33 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J2 (prio 2, 1 quanta left)
+[tick  161] 18:31:33 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick  161] 18:31:33 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick  162] 18:31:34 ARRIVAL   2 vehicle(s) arrived at North Road (J1); queue = 2
+[tick  162] 18:31:34 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 2
+[tick  162] 18:31:34 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J3 (prio 2, 1 quanta left)
+[tick  162] 18:31:34 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  162] 18:31:34 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  162] 18:31:34 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick  163] 18:31:35 ARRIVAL   2 vehicle(s) arrived at South Road (J3); queue = 3
+[tick  163] 18:31:35 SCHEDULER AGING: DASHBOARD_UPDATE waited 4 ticks -> priority 2 -> 1
+[tick  163] 18:31:35 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  164] 18:31:36 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 2
+[tick  164] 18:31:36 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 3
+[tick  165] 18:31:37 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 1
+[tick  165] 18:31:37 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 3
+[tick  165] 18:31:37 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 3
+[tick  165] 18:31:37 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  165] 18:31:37 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick  166] 18:31:39 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 4
+[tick  166] 18:31:39 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick  166] 18:31:39 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  167] 18:31:40 SIGNAL    NS roads: GREEN -> YELLOW (3s)
+[tick  169] 18:31:42 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 5
+[tick  169] 18:31:42 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 2
+[tick  169] 18:31:42 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick  169] 18:31:42 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  169] 18:31:42 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick  170] 18:31:43 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J3 (prio 2, 1 quanta left)
+[tick  170] 18:31:43 SIGNAL    NS roads: YELLOW -> RED, all-red clearance (1s)
+[tick  170] 18:31:43 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  170] 18:31:43 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  170] 18:31:43 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick  171] 18:31:44 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 1
+[tick  171] 18:31:44 SIGNAL    EW roads (J2, J4): GREEN for 9s [density: busiest queue = 4 vehicles]
+[tick  172] 18:31:45 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  173] 18:31:46 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 5
+[tick  173] 18:31:46 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick  173] 18:31:46 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick  173] 18:31:46 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick  174] 18:31:47 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 2
+[tick  174] 18:31:47 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 5
+[tick  174] 18:31:47 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J2 (prio 2, 1 quanta left)
+[tick  174] 18:31:47 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  174] 18:31:47 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  175] 18:31:48 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 5
+[tick  175] 18:31:48 SCHEDULER AGING: DASHBOARD_UPDATE waited 4 ticks -> priority 2 -> 1
+[tick  175] 18:31:48 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  176] 18:31:49 ARRIVAL   2 vehicle(s) arrived at North Road (J1); queue = 4
+[tick  177] 18:31:50 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 5
+[tick  177] 18:31:50 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 1
+[tick  177] 18:31:50 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick  177] 18:31:50 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick  178] 18:31:51 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J2 (prio 2, 1 quanta left)
+[tick  178] 18:31:51 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  178] 18:31:51 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  178] 18:31:51 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  180] 18:31:53 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 6
+[tick  180] 18:31:53 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 2
+[tick  180] 18:31:53 SIGNAL    EW roads: GREEN -> YELLOW (3s)
+[tick  180] 18:31:53 SCHEDULER AGING: LOGGER waited 4 ticks -> priority 2 -> 1
+[tick  181] 18:31:54 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  181] 18:31:54 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick  182] 18:31:55 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 7
+[tick  182] 18:31:55 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick  182] 18:31:55 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  183] 18:31:56 SIGNAL    EW roads: YELLOW -> RED, all-red clearance (1s)
+[tick  184] 18:31:57 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 8
+[tick  184] 18:31:57 SIGNAL    NS roads (J1, J3): GREEN for 12s [density: busiest queue = 7 vehicles]
+[tick  184] 18:31:57 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  185] 18:31:58 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 3
+[tick  185] 18:31:58 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 1
+[tick  185] 18:31:58 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J2 (prio 2, 1 quanta left)
+[tick  185] 18:31:58 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick  185] 18:31:58 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick  186] 18:31:59 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J3 (prio 2, 1 quanta left)
+[tick  186] 18:31:59 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  186] 18:31:59 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  186] 18:31:59 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick  187] 18:32:00 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 2
+[tick  187] 18:32:00 SCHEDULER AGING: DASHBOARD_UPDATE waited 4 ticks -> priority 2 -> 1
+[tick  187] 18:32:00 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  187] 18:32:00 EMERGENCY Ambulance request sent to emergency queue for J1
+[tick  188] 18:32:01 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 6
+[tick  188] 18:32:01 EMERGENCY Ambulance detected on North Road (J1) - highest priority request registered
+[tick  188] 18:32:01 EMERGENCY J1 already GREEN - holding green for Ambulance
+[tick  189] 18:32:02 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 3
+[tick  189] 18:32:02 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  189] 18:32:02 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick  190] 18:32:03 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 5
+[tick  190] 18:32:03 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick  190] 18:32:03 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  192] 18:32:05 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 4
+[tick  193] 18:32:06 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 3
+[tick  193] 18:32:06 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 1
+[tick  193] 18:32:06 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick  193] 18:32:06 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  193] 18:32:06 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick  194] 18:32:07 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 5
+[tick  194] 18:32:07 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J3 (prio 2, 1 quanta left)
+[tick  194] 18:32:07 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  194] 18:32:07 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  194] 18:32:07 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick  195] 18:32:08 ARRIVAL   2 vehicle(s) arrived at North Road (J1); queue = 3
+[tick  195] 18:32:08 ARRIVAL   2 vehicle(s) arrived at East Road (J2); queue = 2
+[tick  196] 18:32:09 EMERGENCY Ambulance on J1 has passed - normal control resumes
+[tick  196] 18:32:09 SIGNAL    NS roads: GREEN -> YELLOW (3s)
+[tick  196] 18:32:09 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  197] 18:32:10 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 1
+[tick  197] 18:32:10 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick  197] 18:32:10 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick  197] 18:32:10 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick  198] 18:32:11 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 2
+[tick  198] 18:32:11 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 6
+[tick  198] 18:32:11 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J2 (prio 2, 1 quanta left)
+[tick  198] 18:32:11 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  198] 18:32:11 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  199] 18:32:12 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 3
+[tick  199] 18:32:12 SIGNAL    NS roads: YELLOW -> RED, all-red clearance (1s)
+[tick  199] 18:32:12 SCHEDULER AGING: DASHBOARD_UPDATE waited 4 ticks -> priority 2 -> 1
+[tick  199] 18:32:12 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  200] 18:32:13 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 4
+[tick  200] 18:32:13 SIGNAL    EW roads (J2, J4): GREEN for 11s [density: busiest queue = 6 vehicles]
+[tick  201] 18:32:14 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 2
+[tick  201] 18:32:14 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick  201] 18:32:14 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick  202] 18:32:15 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 3
+[tick  202] 18:32:15 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J2 (prio 2, 1 quanta left)
+[tick  202] 18:32:15 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  202] 18:32:15 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  202] 18:32:15 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  203] 18:32:16 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 5
+[tick  204] 18:32:17 ARRIVAL   2 vehicle(s) arrived at South Road (J3); queue = 4
+[tick  204] 18:32:17 SCHEDULER AGING: LOGGER waited 4 ticks -> priority 2 -> 1
+[tick  205] 18:32:18 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 1
+[tick  205] 18:32:18 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  205] 18:32:18 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick  206] 18:32:19 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 1
+[tick  206] 18:32:19 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick  206] 18:32:19 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  207] 18:32:20 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 5
+[tick  208] 18:32:21 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  209] 18:32:22 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 1
+[tick  209] 18:32:22 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 1
+[tick  209] 18:32:22 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J2 (prio 2, 1 quanta left)
+[tick  209] 18:32:22 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick  209] 18:32:22 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick  210] 18:32:23 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 4
+[tick  210] 18:32:23 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J3 (prio 2, 1 quanta left)
+[tick  210] 18:32:23 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  210] 18:32:23 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  210] 18:32:23 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick  211] 18:32:24 SIGNAL    EW roads: GREEN -> YELLOW (3s)
+[tick  211] 18:32:24 SCHEDULER AGING: DASHBOARD_UPDATE waited 4 ticks -> priority 2 -> 1
+[tick  211] 18:32:24 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  213] 18:32:26 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  213] 18:32:26 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick  214] 18:32:27 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick  214] 18:32:27 SIGNAL    EW roads: YELLOW -> RED, all-red clearance (1s)
+[tick  214] 18:32:27 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  215] 18:32:28 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 5
+[tick  215] 18:32:28 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 6
+[tick  215] 18:32:28 SIGNAL    NS roads (J1, J3): GREEN for 10s [density: busiest queue = 5 vehicles]
+[tick  216] 18:32:29 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 6
+[tick  217] 18:32:30 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 1
+[tick  217] 18:32:30 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick  217] 18:32:30 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  217] 18:32:30 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick  218] 18:32:31 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J3 (prio 2, 1 quanta left)
+[tick  218] 18:32:31 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  218] 18:32:31 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  218] 18:32:31 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick  219] 18:32:32 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 2
+[tick  220] 18:32:33 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 3
+[tick  220] 18:32:33 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  221] 18:32:34 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick  221] 18:32:34 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick  221] 18:32:34 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick  222] 18:32:35 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J2 (prio 2, 1 quanta left)
+[tick  222] 18:32:35 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  222] 18:32:35 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  223] 18:32:36 SCHEDULER AGING: DASHBOARD_UPDATE waited 4 ticks -> priority 2 -> 1
+[tick  223] 18:32:36 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  224] 18:32:37 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 1
+[tick  224] 18:32:37 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 3
+[tick  225] 18:32:38 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 1
+[tick  225] 18:32:38 SIGNAL    NS roads: GREEN -> YELLOW (3s)
+[tick  225] 18:32:38 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick  225] 18:32:38 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick  226] 18:32:39 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J2 (prio 2, 1 quanta left)
+[tick  226] 18:32:39 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  226] 18:32:39 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  226] 18:32:39 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  227] 18:32:40 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 1
+[tick  227] 18:32:40 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 4
+[tick  228] 18:32:41 SIGNAL    NS roads: YELLOW -> RED, all-red clearance (1s)
+[tick  228] 18:32:41 SCHEDULER AGING: LOGGER waited 4 ticks -> priority 2 -> 1
+[tick  229] 18:32:42 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 2
+[tick  229] 18:32:42 SIGNAL    EW roads (J2, J4): GREEN for 9s [density: busiest queue = 4 vehicles]
+[tick  229] 18:32:42 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  229] 18:32:42 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick  230] 18:32:43 ARRIVAL   2 vehicle(s) arrived at North Road (J1); queue = 4
+[tick  230] 18:32:43 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick  230] 18:32:43 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  231] 18:32:44 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 5
+[tick  232] 18:32:45 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 1
+[tick  232] 18:32:45 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  233] 18:32:46 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J2 (prio 2, 1 quanta left)
+[tick  233] 18:32:46 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick  233] 18:32:46 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick  234] 18:32:47 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J3 (prio 2, 1 quanta left)
+[tick  234] 18:32:47 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  234] 18:32:47 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  234] 18:32:47 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick  235] 18:32:48 SCHEDULER AGING: DASHBOARD_UPDATE waited 4 ticks -> priority 2 -> 1
+[tick  235] 18:32:48 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  237] 18:32:50 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  237] 18:32:50 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick  238] 18:32:51 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick  238] 18:32:51 SIGNAL    EW roads: GREEN -> YELLOW (3s)
+[tick  238] 18:32:51 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  241] 18:32:54 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick  241] 18:32:54 SIGNAL    EW roads: YELLOW -> RED, all-red clearance (1s)
+[tick  241] 18:32:54 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  241] 18:32:54 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick  242] 18:32:55 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J3 (prio 2, 1 quanta left)
+[tick  242] 18:32:55 SIGNAL    NS roads (J1, J3): GREEN for 10s [density: busiest queue = 5 vehicles]
+[tick  242] 18:32:55 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  242] 18:32:55 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  242] 18:32:55 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick  244] 18:32:57 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 5
+[tick  244] 18:32:57 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 1
+[tick  244] 18:32:57 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  245] 18:32:58 ARRIVAL   2 vehicle(s) arrived at North Road (J1); queue = 6
+[tick  245] 18:32:58 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick  245] 18:32:58 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick  245] 18:32:58 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick  246] 18:32:59 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J2 (prio 2, 1 quanta left)
+[tick  246] 18:32:59 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  246] 18:32:59 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  247] 18:33:00 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 1
+[tick  247] 18:33:00 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 1
+[tick  247] 18:33:00 SCHEDULER AGING: DASHBOARD_UPDATE waited 4 ticks -> priority 2 -> 1
+[tick  247] 18:33:00 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  249] 18:33:02 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick  249] 18:33:02 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick  250] 18:33:03 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 1
+[tick  250] 18:33:03 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J2 (prio 2, 1 quanta left)
+[tick  250] 18:33:03 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  250] 18:33:03 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  250] 18:33:03 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  251] 18:33:04 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 1
+[tick  252] 18:33:05 SIGNAL    NS roads: GREEN -> YELLOW (3s)
+[tick  252] 18:33:05 SCHEDULER AGING: LOGGER waited 4 ticks -> priority 2 -> 1
+[tick  253] 18:33:06 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  253] 18:33:06 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick  254] 18:33:07 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 2
+[tick  254] 18:33:07 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick  254] 18:33:07 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  255] 18:33:08 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 1
+[tick  255] 18:33:08 SIGNAL    NS roads: YELLOW -> RED, all-red clearance (1s)
+[tick  256] 18:33:09 SIGNAL    EW roads (J2, J4): GREEN for 8s [density: busiest queue = 2 vehicles]
+[tick  256] 18:33:09 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  257] 18:33:10 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 2
+[tick  257] 18:33:10 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J2 (prio 2, 1 quanta left)
+[tick  257] 18:33:10 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick  257] 18:33:10 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick  258] 18:33:11 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 2
+[tick  258] 18:33:11 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J3 (prio 2, 1 quanta left)
+[tick  258] 18:33:11 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  258] 18:33:11 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  258] 18:33:11 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick  259] 18:33:12 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 1
+[tick  259] 18:33:12 SCHEDULER AGING: DASHBOARD_UPDATE waited 4 ticks -> priority 2 -> 1
+[tick  259] 18:33:12 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  261] 18:33:14 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 2
+[tick  261] 18:33:14 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  261] 18:33:14 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick  262] 18:33:15 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick  262] 18:33:15 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  264] 18:33:17 SIGNAL    EW roads: GREEN -> YELLOW (3s)
+[tick  265] 18:33:18 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 3
+[tick  265] 18:33:18 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick  265] 18:33:18 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  265] 18:33:18 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick  266] 18:33:19 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 1
+[tick  266] 18:33:19 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J3 (prio 2, 1 quanta left)
+[tick  266] 18:33:19 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  266] 18:33:19 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  266] 18:33:19 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick  267] 18:33:20 SIGNAL    EW roads: YELLOW -> RED, all-red clearance (1s)
+[tick  268] 18:33:21 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 4
+[tick  268] 18:33:21 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 2
+[tick  268] 18:33:21 SIGNAL    NS roads (J1, J3): GREEN for 8s [density: busiest queue = 3 vehicles]
+[tick  268] 18:33:21 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  269] 18:33:22 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 3
+[tick  269] 18:33:22 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 3
+[tick  269] 18:33:22 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick  269] 18:33:22 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick  269] 18:33:22 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick  270] 18:33:23 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J2 (prio 2, 1 quanta left)
+[tick  270] 18:33:23 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  270] 18:33:23 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  271] 18:33:24 SCHEDULER AGING: DASHBOARD_UPDATE waited 4 ticks -> priority 2 -> 1
+[tick  271] 18:33:24 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  272] 18:33:25 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 2
+[tick  273] 18:33:26 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 2
+[tick  273] 18:33:26 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 1
+[tick  273] 18:33:26 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick  273] 18:33:26 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick  274] 18:33:27 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J2 (prio 2, 1 quanta left)
+[tick  274] 18:33:27 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  274] 18:33:27 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  274] 18:33:27 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  275] 18:33:28 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 1
+[tick  275] 18:33:28 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 1
+[tick  276] 18:33:29 SIGNAL    NS roads: GREEN -> YELLOW (3s)
+[tick  276] 18:33:29 SCHEDULER AGING: LOGGER waited 4 ticks -> priority 2 -> 1
+[tick  277] 18:33:31 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  277] 18:33:31 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick  278] 18:33:32 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 2
+[tick  278] 18:33:32 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 1
+[tick  278] 18:33:32 ARRIVAL   2 vehicle(s) arrived at West Road (J4); queue = 5
+[tick  278] 18:33:32 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick  278] 18:33:32 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  279] 18:33:33 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 6
+[tick  279] 18:33:33 SIGNAL    NS roads: YELLOW -> RED, all-red clearance (1s)
+[tick  280] 18:33:34 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 1
+[tick  280] 18:33:34 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 7
+[tick  280] 18:33:34 SIGNAL    EW roads (J2, J4): GREEN for 8s [density: busiest queue = 3 vehicles]
+[tick  280] 18:33:34 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  281] 18:33:35 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 3
+[tick  281] 18:33:35 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J2 (prio 2, 1 quanta left)
+[tick  281] 18:33:35 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick  281] 18:33:35 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick  282] 18:33:36 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 3
+[tick  282] 18:33:36 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 7
+[tick  282] 18:33:36 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J3 (prio 2, 1 quanta left)
+[tick  282] 18:33:36 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  282] 18:33:36 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  282] 18:33:36 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick  283] 18:33:37 SCHEDULER AGING: DASHBOARD_UPDATE waited 4 ticks -> priority 2 -> 1
+[tick  283] 18:33:37 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  284] 18:33:38 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 2
+[tick  285] 18:33:39 ARRIVAL   2 vehicle(s) arrived at North Road (J1); queue = 3
+[tick  285] 18:33:39 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  285] 18:33:39 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick  286] 18:33:40 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 4
+[tick  286] 18:33:40 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick  286] 18:33:40 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  287] 18:33:41 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 3
+[tick  288] 18:33:42 SIGNAL    EW roads: GREEN -> YELLOW (3s)
+[tick  289] 18:33:43 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick  289] 18:33:43 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  289] 18:33:43 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick  290] 18:33:44 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 3
+[tick  290] 18:33:44 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J3 (prio 2, 1 quanta left)
+[tick  290] 18:33:44 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  290] 18:33:44 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  290] 18:33:44 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick  291] 18:33:45 SIGNAL    EW roads: YELLOW -> RED, all-red clearance (1s)
+[tick  292] 18:33:46 SIGNAL    NS roads (J1, J3): GREEN for 9s [density: busiest queue = 4 vehicles]
+[tick  292] 18:33:46 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  293] 18:33:47 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 1
+[tick  293] 18:33:47 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick  293] 18:33:47 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick  293] 18:33:47 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick  294] 18:33:48 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 4
+[tick  294] 18:33:48 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J2 (prio 2, 1 quanta left)
+[tick  294] 18:33:48 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  294] 18:33:48 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  295] 18:33:49 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 4
+[tick  295] 18:33:49 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 2
+[tick  295] 18:33:49 SCHEDULER AGING: DASHBOARD_UPDATE waited 4 ticks -> priority 2 -> 1
+[tick  295] 18:33:49 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  297] 18:33:51 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 1
+[tick  297] 18:33:51 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick  297] 18:33:51 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick  298] 18:33:52 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J2 (prio 2, 1 quanta left)
+[tick  298] 18:33:52 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  298] 18:33:52 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  298] 18:33:52 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  300] 18:33:54 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 2
+[tick  300] 18:33:54 SCHEDULER AGING: LOGGER waited 4 ticks -> priority 2 -> 1
+[tick  301] 18:33:55 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 1
+[tick  301] 18:33:55 SIGNAL    NS roads: GREEN -> YELLOW (3s)
+[tick  301] 18:33:55 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  301] 18:33:55 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick  302] 18:33:56 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 1
+[tick  302] 18:33:56 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick  302] 18:33:56 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  303] 18:33:57 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 2
+[tick  303] 18:33:57 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 2
+[tick  303] 18:33:57 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 3
+[tick  304] 18:33:58 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 3
+[tick  304] 18:33:58 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 3
+[tick  304] 18:33:58 SIGNAL    NS roads: YELLOW -> RED, all-red clearance (1s)
+[tick  304] 18:33:58 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  305] 18:33:59 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 4
+[tick  305] 18:33:59 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J2 (prio 2, 1 quanta left)
+[tick  305] 18:33:59 SIGNAL    EW roads (J2, J4): GREEN for 8s [density: busiest queue = 2 vehicles]
+[tick  305] 18:33:59 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick  305] 18:33:59 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick  306] 18:34:00 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J3 (prio 2, 1 quanta left)
+[tick  306] 18:34:00 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  306] 18:34:00 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  306] 18:34:00 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick  307] 18:34:01 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 3
+[tick  307] 18:34:01 SCHEDULER AGING: DASHBOARD_UPDATE waited 4 ticks -> priority 2 -> 1
+[tick  307] 18:34:01 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  308] 18:34:02 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 1
+[tick  308] 18:34:02 ARRIVAL   2 vehicle(s) arrived at East Road (J2); queue = 4
+[tick  309] 18:34:03 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 2
+[tick  309] 18:34:03 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 4
+[tick  309] 18:34:03 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  309] 18:34:03 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick  310] 18:34:04 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick  310] 18:34:04 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  312] 18:34:06 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 3
+[tick  313] 18:34:07 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick  313] 18:34:07 SIGNAL    EW roads: GREEN -> YELLOW (3s)
+[tick  313] 18:34:07 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  313] 18:34:07 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick  314] 18:34:08 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J3 (prio 2, 1 quanta left)
+[tick  314] 18:34:08 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  314] 18:34:08 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  314] 18:34:08 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick  315] 18:34:09 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 1
+[tick  316] 18:34:10 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 4
+[tick  316] 18:34:10 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 4
+[tick  316] 18:34:10 ARRIVAL   1 vehicle(s) arrived at West Road (J4); queue = 2
+[tick  316] 18:34:10 SIGNAL    EW roads: YELLOW -> RED, all-red clearance (1s)
+[tick  316] 18:34:10 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  317] 18:34:11 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 5
+[tick  317] 18:34:11 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J1 (prio 2, 1 quanta left)
+[tick  317] 18:34:11 SIGNAL    NS roads (J1, J3): GREEN for 9s [density: busiest queue = 4 vehicles]
+[tick  317] 18:34:11 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick  317] 18:34:11 SCHEDULER AGING: DASHBOARD_UPDATE waited 2 ticks -> priority 3 -> 2
+[tick  318] 18:34:12 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 6
+[tick  318] 18:34:12 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J2 (prio 2, 1 quanta left)
+[tick  318] 18:34:12 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  318] 18:34:12 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  319] 18:34:13 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 4
+[tick  319] 18:34:13 SCHEDULER AGING: DASHBOARD_UPDATE waited 4 ticks -> priority 2 -> 1
+[tick  319] 18:34:13 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  320] 18:34:14 ARRIVAL   1 vehicle(s) arrived at South Road (J3); queue = 5
+[tick  321] 18:34:15 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 1
+[tick  321] 18:34:15 SCHEDULER AGING: DENSITY_J3 waited 2 ticks -> priority 2 -> 1
+[tick  321] 18:34:15 SCHEDULER AGING: DENSITY_J4 waited 2 ticks -> priority 2 -> 1
+[tick  322] 18:34:16 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 2
+[tick  322] 18:34:16 SCHEDULER PRE-EMPT: EMERGENCY_DETECT (prio 0) took the CPU from DENSITY_J2 (prio 2, 1 quanta left)
+[tick  322] 18:34:16 SCHEDULER AGING: DENSITY_J1 waited 2 ticks -> priority 2 -> 1
+[tick  322] 18:34:16 SCHEDULER AGING: DENSITY_J2 waited 2 ticks -> priority 2 -> 1
+[tick  322] 18:34:16 SCHEDULER AGING: LOGGER waited 2 ticks -> priority 3 -> 2
+[tick  323] 18:34:17 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 1
+[tick  323] 18:34:17 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 3
+[tick  324] 18:34:18 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 4
+[tick  324] 18:34:18 SCHEDULER AGING: LOGGER waited 4 ticks -> priority 2 -> 1
+[tick  325] 18:34:19 ARRIVAL   1 vehicle(s) arrived at North Road (J1); queue = 1
+[tick  325] 18:34:19 ARRIVAL   1 vehicle(s) arrived at East Road (J2); queue = 5
